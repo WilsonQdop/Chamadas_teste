@@ -1,0 +1,16 @@
+<main class="card">
+    <section class="container">
+
+        <h2 class="titulo">{{title}}</h2>
+        <ng-content class="inputs"></ng-content>
+
+        <section class="botoes">
+            <button (click)="submit()" class="button">Login</button>
+            <div>
+                <span>Ou</span>
+            </div>
+            <button (click)="navigate()" class="button">Cadastro</button>
+        </section>
+
+    </section>
+</main>

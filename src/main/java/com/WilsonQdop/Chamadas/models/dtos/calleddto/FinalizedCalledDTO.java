@@ -1,0 +1,8 @@
+package com.WilsonQdop.Chamadas.models.dtos.calleddto;
+
+import com.WilsonQdop.Chamadas.enums.StatusEnum;
+
+import java.time.LocalDateTime;
+
+public record FinalizedCalledDTO(LocalDateTime finishedAt, StatusEnum status) {
+}

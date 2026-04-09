@@ -1,0 +1,33 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 8.5fr 8.5fr 1fr;
+    justify-items: center;
+    align-items: start;
+    max-height: 5dvh;
+    background-color: rgb(39, 118, 255);
+    border-radius: 0.5cap;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+
+    .chamados, .backup-restore {
+        margin: 0.6dvh 0;
+        background-color: rgb(71, 138, 253);
+        border-radius: 0.5cap;
+        width: 46.4dvw;
+        padding: 0.5dvh 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .sair {
+        margin: 0.6dvh 0;
+        background-color: rgb(255, 0, 0);
+        border-radius: 0.5cap;
+        width: 5dvw;
+        padding: 0.5dvh 0;
+        text-align: center;
+        cursor: pointer;
+    }
+}

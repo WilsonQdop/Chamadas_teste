@@ -1,0 +1,43 @@
+.backup-container {
+  padding: 20px;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .backup-card {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    .backup-button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+
+.restore-container {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  .restore-card {
+    width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 15px;
+  }
+
+  .restore-button {
+    background-color: #dc3545; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; width: 100%;
+  }
+
+  .restore-msg {
+    margin-top: 20px; color: #555; font-style: italic;
+  }
+}

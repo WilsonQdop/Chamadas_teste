@@ -1,0 +1,28 @@
+.card{
+    max-width: 15dvw;
+    padding: 20px;
+    height: 50dvh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 23dvh;
+    border-radius: 3cap;
+    border: solid 1px rgb(191, 191, 191);
+
+    .container{
+        margin-bottom: 5%;
+
+        .titulo{
+            text-align: center;
+            margin-bottom: 2dvh;
+        }
+        
+        .botoes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    }
+}
