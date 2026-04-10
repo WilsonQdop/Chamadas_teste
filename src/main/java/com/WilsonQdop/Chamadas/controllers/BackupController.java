@@ -1,9 +1,7 @@
 package com.WilsonQdop.Chamadas.controllers;
 
 import com.WilsonQdop.Chamadas.services.BackupService;
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -46,7 +44,7 @@ public class BackupController {
     @GetMapping("/files")
     public ResponseEntity<List<String>> listFiles() {
         try {
-            List<String> files = backupService.listarBackups();
+            List<String> files = backupService.ListerBackups();
             return ResponseEntity.ok(files);
         } catch (Exception e) {
             return ResponseEntity.internalServerError().build();

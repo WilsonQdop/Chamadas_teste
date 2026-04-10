@@ -83,7 +83,7 @@ public class BackupService {
             throw new RuntimeException("Erro no restore: " + errorStream);
         }
     }
-    public List<String> listarBackups() {
+    public List<String> ListerBackups() {
         File directory = new File(storagePath);
         if (!directory.exists()) return Collections.emptyList();
 

@@ -1,0 +1,9 @@
+services:
+  angular-app:
+    build: .
+    container_name: angular-app-rede-social
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+      - /app/node_modules
