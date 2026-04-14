@@ -126,7 +126,7 @@ public class CustomerController {
     }
 
     @GetMapping("findAll")
-    @PreAuthorize("hasAuthority('SCOPE_ADM')")
+    //@PreAuthorize("hasAuthority('SCOPE_ADM')")
     @SecurityRequirement(name = "bearerAuth")
     @Operation(
             summary = "Listar todos os clientes",
