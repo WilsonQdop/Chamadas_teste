@@ -48,24 +48,7 @@ public class SecurityConfig {
                                 "/swagger-ui/**",
                                 "/swagger-ui.html"
                         ).permitAll()
-
-//                        .requestMatchers(HttpMethod.GET, "/customer/findAll").authenticated()
-//
-//                        .requestMatchers(HttpMethod.PUT, "/technical/assign").authenticated()
-//                        .requestMatchers(HttpMethod.PUT, "/technical/update").authenticated()
-//                        .requestMatchers(HttpMethod.GET, "/technical/find").authenticated()
-//                        .requestMatchers(HttpMethod.DELETE, "/technical/delete").authenticated()
-//
-//                        .requestMatchers(HttpMethod.POST, "/called/create").authenticated()
-//                        .requestMatchers(HttpMethod.PUT, "/called/payment").authenticated()
-//                        .requestMatchers(HttpMethod.GET, "/called/status/open").authenticated()
-//                        .requestMatchers(HttpMethod.POST, "/called/finalized").authenticated()
-//
-//                        .requestMatchers(HttpMethod.POST, "/history/registred").authenticated()
-
-
                         .requestMatchers("/backup/**").permitAll()
-
 
                         .anyRequest().authenticated())
 
